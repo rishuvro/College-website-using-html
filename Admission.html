@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admission Form | XYZ College</title>
+</head>
+<body background="back.jpg"></body>
+    <header>
+        <img src="images.jpeg" alt="College Logo">
+        <h1>Admission Form</h1>
+        nav>
+          <ul>
+            <li style="display:inline-block;padding:10px;"><a href="Home.html">Home</a></li>
+            <li style="display:inline-block;padding:10px;"><a href="Academics.html">Academics</a></li>
+            <li style="display:inline-block;padding:10px;"><a href="Admission.html">Admission</a></li>
+            <li style="display:inline-block;padding:10px;"><a href="Gallery.html">Gallery</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="">--Select--</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Academic Information</legend>
+                <label for="department">Department:</label>
+                <select id="department" name="department" required>
+                    <option value="">--Select--</option>
+                    <option value="arts">Arts</option>
+                    <option value="science">Science</option>
+                    <option value="commerce">Commerce</option>
+                </select>
+
+                <label for="course">Course:</label>
+                <select id="course" name="course" required>
+                    <option value="">--Select--</option>
+                    <option value="english">English</option>
+                    <option value="mathematics">Mathematics</option>
+                    <option value="physics">Physics</option>
+                    <option value="chemistry">Chemistry</option>
+                    <option value="history">History</option>
+                    <option value="economics">Economics</option>
+                    <option value="accountancy">Accountancy</option>
+                </select>
+
+                <label for="marks">Percentage/CGPA:</label>
+                <input type="text" id="marks" name="marks" required>
+
+                <label for="year">Year of Passing:</label>
+                <input type="number" id="year" name="year" min="1900" max="2023" required>
+
+                <label for="documents">Upload Documents:</label>
+                <input type="file" id="documents" name="documents" required>
+            </fieldset>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </main>
+
+    <footer>
+        <center>&copy; 2023 | Designed by Rakib</center>
+    </footer>
