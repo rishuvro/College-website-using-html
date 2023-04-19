@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body background="back.jpg"></body>
+    <header>
+        <img src="images.jpeg" alt="College Logo">
+<body>
+	<h1>Registration Form</h1>
+	<form action="login.html">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name"><br><br>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email"><br><br>
+
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password"><br><br>
+
+		<label for="confirm-password">Confirm Password:</label>
+		<input type="password" id="confirm-password" name="confirm-password"><br><br>
+
+		<label for="dob">Date of Birth:</label>
+		<input type="date" id="dob" name="dob"><br><br>
+
+		<label for="gender">Gender:</label>
+		<input type="radio" id="male" name="gender" value="male">
+		<label for="male">Male</label>
+		<input type="radio" id="female" name="gender" value="female">
+		<label for="female">Female</label><br><br>
+
+		<label for="program">Program:</label>
+		<select id="program" name="program">
+			<option value="Arts">Arts</option>
+			<option value="Science">Science</option>
+			<option value="Commarce">Commarce</option>
+		</select><br><br>
+
+		<label for="years">Years:</label>
+		<input type="number" id="years" name="years"><br><br>
+
+		<label for="address">Address:</label><br>
+		<textarea id="address" name="address"></textarea><br><br>
+
+		<label for="contact">Contact Number:</label>
+		<input type="tel" id="contact" name="contact"><br><br>
+
+		<input type="submit" value="Submit">
+        <button onclick="window.location.href='login.html'">Go to Login Page</button>
+
+	</form>
+    <footer><center>&copy;2023 | Design By Rakib.</center></footer>
+</body>
+</html>
