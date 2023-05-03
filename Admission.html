@@ -21,44 +21,45 @@
         <form>
             <fieldset>
                 <legend>Personal Information</legend>
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name" required>
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
 
-                <label for="dob">Date of Birth:</label>
-                <input type="date" id="dob" name="dob" required>
+                <label for="dob">Date of Birth:</label><br>
+                <input type="date" id="dob" name="dob" required><br>
 
-                <label for="gender">Gender:</label>
-                <select id="gender" name="gender" required>
-                    <option value="">--Select--</option>
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                    <option value="other">Other</option>
+                <label for="gender">Gender:</label><br>
+                <select id="gender" name="gender" required><br>
+                    <option value="">--Select--</option><br>
+                    <option value="male">Male</option><br>
+                    <option value="female">Female</option><br>
+                    <option value="other">Other</option><br>
                 </select>
+                <br>
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" pattern="{11}" required><br>
 
-                <label for="phone">Phone Number:</label>
-                <input type="tel" id="phone" name="phone" pattern="{11}" required>
-
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" required>
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" required><br>
             </fieldset>
 
             <fieldset>
-                <legend>Academic Information</legend>
-                <label for="department">Department:</label>
-                <select id="department" name="department" required>
-                    <option value="">--Select--</option>
-                    <option value="arts">Arts</option>
-                    <option value="science">Science</option>
-                    <option value="commerce">Commerce</option>
+                <legend>Academic Information</legend><br>
+                <label for="department">Department:</label><br>
+                <select id="department" name="department" required><br>
+                    <option value="">--Select--</option><br>
+                    <option value="arts">Arts</option><br>
+                    <option value="science">Science</option><br>
+                    <option value="commerce">Commerce</option><br>
                 </select>
-                <label for="marks">SSC GPA:</label>
-                <input type="text" id="marks" name="marks" required>
+                <br>
+                <label for="marks">SSC GPA:</label><br>
+                <input type="text" id="marks" name="marks" required><br>
 
-                <label for="year">Year of Passing:</label>
-                <input type="number" id="year" name="year" min="1900" max="2023" required>
+                <label for="year">Year of Passing:</label><br>
+                <input type="number" id="year" name="year" min="1900" max="2023" required><br>
 
-                <label for="documents">Upload Documents:</label>
-                <input type="file" id="documents" name="documents" required>
+                <label for="documents">Upload Documents:</label><br>
+                <input type="file" id="documents" name="documents" required><br>
             </fieldset>
 
             <input type="submit" value="Submit">
