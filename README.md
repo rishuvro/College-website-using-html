@@ -5,7 +5,8 @@ This is a simple HTML website for the College of Kings of the Pirates. It provid
 
 
 ## Introduction
-The College of Kings of the Pirates website is designed to showcase the institution's offerings and provide information to prospective students, current students, and the general public. The website features a visually appealing design with a responsive layout.
+The College of Kings of the Pirates website is designed to showcase the institution's offerings and provide information to prospective students, current students, and the general public.
+The website features a visually appealing design with a responsive layout.
 
 ## Features
 - Responsive design for optimal viewing on different devices
