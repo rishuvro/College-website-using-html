@@ -1,4 +1,5 @@
 # College-website-using-html
+
 # College Website Here I use only HTML
 
 This is a simple HTML website for the College of Kings of the Pirates. It provides information about the college, its programs, and various other details.
